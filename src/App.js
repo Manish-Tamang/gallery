@@ -1,4 +1,5 @@
 import ImagesList from './components/imagesList/ImagesList';
+import Upload from './components/upload/Upload';
 import Nav from './components/Nav';
 import { Container } from '@mui/material';
 import AuthContext from './context/AuthContext';
@@ -20,6 +21,7 @@ function App() {
         <Modal />
         <Verification />
         <MainNotification />
+  <Upload />
         <Nav />
         <ImagesList />
       </AuthContext>
